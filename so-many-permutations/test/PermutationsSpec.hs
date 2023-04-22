@@ -1,4 +1,4 @@
-module PermutationsSpec (spec)
+module PermutationsSpec
 
   where
 
@@ -7,7 +7,7 @@ import Permutations
 import qualified Data.List as L
 
 
-spec :: Spec
+spec :: SpecWith ()
 spec = do
   describe "permutations" $ do
     it "should work for some examples" $ do

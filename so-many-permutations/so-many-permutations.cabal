@@ -50,8 +50,9 @@ executable so-many-permutations-exe
 
 test-suite so-many-permutations-test
   type: exitcode-stdio-1.0
-  main-is: PermutationsSpec.hs
+  main-is: Spec.hs
   other-modules:
+      PermutationsSpec
       Paths_so_many_permutations
   hs-source-dirs:
       test
